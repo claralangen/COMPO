@@ -4,7 +4,7 @@
   
   ## Features:
   
-  1. [ ] **Data:** [ ]
+  1. [ ] **Data:** 
           - Nom des compositeurs (3 pour commencer)
             - photo bulle
             - photo cover
@@ -14,7 +14,7 @@
               - nom tracks par film
               - durée tracks
 
-  2. [ ] **Player:** [ ]
+  2. [ ] **Player:** 
         - play/pause
         - next/previous
         - volume
