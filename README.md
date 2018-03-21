@@ -4,7 +4,7 @@
   
   ## Features:
   
-  1. [ ] **Data:** 
+  1. [x] **Data:** 
         - Nom des compositeurs (3 pour commencer)
           - photo bulle
           - photo cover
