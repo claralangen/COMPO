@@ -34,9 +34,6 @@ export var composers = [
         ]
     },
     {
-<<<<<<< HEAD
-        composerName :  'Enzo Hespel',
-=======
         composerName :  'Ennio Morricone',
         facePicture : 'imgs/face/JW.png',
         coverPicture : 'imgs/cover/JW.png',
@@ -72,7 +69,6 @@ export var composers = [
     },
     {
         composerName :  'Hans Zimmer',
->>>>>>> f52619daa4e9cbee165a9e0a975e61cbe32a58be
         facePicture : 'imgs/face/JW.png',
         coverPicture : 'imgs/cover/JW.png',
         movies: [{
