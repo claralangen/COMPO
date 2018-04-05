@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3238e57-280e-4490-bbb2-83ee24b9fb0f" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/js/data.js" afterPath="$PROJECT_DIR$/src/js/data.js" />
       <change beforePath="$PROJECT_DIR$/src/js/dataDisplay.js" afterPath="$PROJECT_DIR$/src/js/dataDisplay.js" />
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+>>>>>>> f52619daa4e9cbee165a9e0a975e61cbe32a58be
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,9 +78,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane" />
+=======
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> f52619daa4e9cbee165a9e0a975e61cbe32a58be
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,13 +119,21 @@
       <option name="presentableId" value="Default" />
       <updated>1521654918522</updated>
       <workItem from="1521654920298" duration="396000" />
+<<<<<<< HEAD
       <workItem from="1521819687806" duration="1706000" />
       <workItem from="1522701162430" duration="3000" />
+=======
+      <workItem from="1521819628283" duration="55000" />
+>>>>>>> f52619daa4e9cbee165a9e0a975e61cbe32a58be
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2105000" />
+=======
+    <option name="totallyTimeSpent" value="451000" />
+>>>>>>> f52619daa4e9cbee165a9e0a975e61cbe32a58be
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -193,6 +212,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
