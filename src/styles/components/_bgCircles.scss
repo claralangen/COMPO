@@ -1,0 +1,16 @@
+.bgCircles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 190vh;
+  margin-top:-6%;
+  overflow: hidden;
+  .circleItem{
+    position: absolute;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px 41px -12px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 41px -12px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 41px -12px rgba(0,0,0,1);
+  }
+}

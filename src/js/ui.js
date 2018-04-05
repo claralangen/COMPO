@@ -1,5 +1,5 @@
-import {get_the_name} from "../dataDisplay";
-import {circleProperties,generateCircle} from "./generateBgCircles";
+import {get_the_name} from "./dataDisplay";
+import {circleProperties,generateCircle} from "./uiComponents/generateBgCircles";
 
 var ui = {
     circles: document.querySelectorAll('.circle'),

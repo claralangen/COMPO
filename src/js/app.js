@@ -1,10 +1,11 @@
-import '../styles/reset.scss';
+import '../styles/global/_reset.scss';
 import '../styles/main.scss';
 
 import './data.js';
-import './dataDisplay';
+import './dataDisplay.js';
 import './player.js';
-import './ui/ui.js';
-import './ui/generateBgCircles.js'
+import './ui.js';
+import './uiComponents/generateBgCircles.js'
+import './uiComponents/navBar.js'
 
 window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
