@@ -173,7 +173,7 @@ export var composers = [
                     duration : 300
                 },
             ]
-        }
+        },
         {
             name : 'La Panthère rose',
             picture : 'imgs/movie/La Panthère rose.png',
@@ -310,7 +310,7 @@ export var composers = [
                     duration : 300
                 },
             ]
-        }
+        },
         {
             name : 'Whiplash',
             picture : 'imgs/movie/Whiplash.png',
@@ -448,7 +448,7 @@ export var composers = [
                     duration : 300
                 },
             ]
-        }
+        },
         {
             name : 'Château dans le ciel ',
             picture : 'imgs/movie/Whiplash.png',
@@ -500,7 +500,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Mon voisin Totoro',
             picture : 'imgs/movie/Whiplash.png',
@@ -552,7 +552,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Kiki la petite sorcière',
             picture : 'imgs/movie/Whiplash.png',
@@ -604,7 +604,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Porco Rosso',
             picture : 'imgs/movie/Whiplash.png',
@@ -656,7 +656,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'HANNA-BI',
             picture : 'imgs/movie/Whiplash.png',
@@ -708,7 +708,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Princesse Mononoké ',
             picture : 'imgs/movie/Whiplash.png',
@@ -760,7 +760,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Le voyage de Chihiro',
             picture : 'imgs/movie/Whiplash.png',
@@ -812,7 +812,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Le Château ambulant',
             picture : 'imgs/movie/Whiplash.png',
@@ -864,7 +864,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Ponyo sur la falaise',
             picture : 'imgs/movie/Whiplash.png',
@@ -916,7 +916,7 @@ export var composers = [
                     duration : 300
                 }
             ]
-        }
+        },
         {
             name : 'Le vent se lève',
             picture : 'imgs/movie/Whiplash.png',
@@ -1054,7 +1054,7 @@ export var composers = [
                         duration : 300
                     },
                 ]
-            }
+            },
             {
                 name : 'Château dans le ciel ',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1106,7 +1106,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Mon voisin Totoro',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1158,7 +1158,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Kiki la petite sorcière',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1210,7 +1210,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Porco Rosso',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1262,7 +1262,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'HANNA-BI',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1314,7 +1314,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Princesse Mononoké ',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1366,7 +1366,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Le voyage de Chihiro',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1418,7 +1418,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Le Château ambulant',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1470,7 +1470,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Ponyo sur la falaise',
                 picture : 'imgs/movie/Whiplash.png',
@@ -1522,7 +1522,7 @@ export var composers = [
                         duration : 300
                     }
                 ]
-            }
+            },
             {
                 name : 'Le vent se lève',
                 picture : 'imgs/movie/Whiplash.png',

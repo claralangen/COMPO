@@ -7,5 +7,6 @@ import './player.js';
 import './ui.js';
 import './uiComponents/generateBgCircles.js'
 import './uiComponents/navBar.js'
+import './uiComponents/generatePoster.js'
 
 window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;

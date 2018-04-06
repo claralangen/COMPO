@@ -15,7 +15,6 @@ export function circleProperties() {
     let red = 229;
     let blue = 63;
     for (let i = 0; i < circle.length; i++) {
-        console.log(width, height);
         circle[i].style.height = height + 'px';
         circle[i].style.width = width + 'px';
         circle[i].style.background = 'rgb(' + red + ',9,' + blue + ')';
