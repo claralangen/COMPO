@@ -1,4 +1,5 @@
 import {get_the_name} from "./dataDisplay";
+import {circleProperties,generateCircle} from "./uiComponents/generateBgCircles";
 
 var ui = {
     circles: document.querySelectorAll('.circle'),
@@ -11,3 +12,5 @@ for (let i = 0; i < ui.circles.length; i++) {
         console.log('ça marche');
     });
 }
+generateCircle();
+circleProperties();

@@ -5,21 +5,35 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="scss/main.css">
     <title>Document</title>
 </head>
 <body>
 
-<div class="circle"><p class="composerName" ></p></div>
-<div class="circle"><p class="composerName"></p></div>
-<div class="circle"><p class="composerName"></p></div>
-<script>
-    var tag = document.createElement('script');
+   <!-- <div class="circle"><p class="composerName" ></p></div>
+    <div class="circle"><p class="composerName"></p></div>
+    <div class="circle"><p class="composerName"></p></div>-->
+    <nav class="navBar">
+        <div class="navBar-left">
+            <a href="#home"><img src="./assets/imgs/navLogo.png" alt="" class="navLogo"></a>
+        </div>
+        <div class="navBar-right">
+            <div class="navRec">
+                <div class="navRec-item"></div>
+                <div class="navRec-item"></div>
+            </div>
 
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-</script>
+        </div>
+    </nav>
+
+    <div class="bgCircles"></div>
+   
+    <script>
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>
 
 <script src="js/app.js"></script>
 </body>

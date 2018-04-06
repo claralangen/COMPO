@@ -1,0 +1,46 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px 0 50px;
+  position: relative;
+  z-index: 1;
+  &-left {
+    .navLogo{
+      cursor: pointer;
+    }
+  }
+  &-right{
+    cursor: pointer;
+    display: block;
+   .navRec{
+     position: relative;
+     width: 21px;
+     height: 31px;
+     &-item{
+       width: 13px;
+       height: 20px;
+       background: #000;
+       border: 1px solid #000;
+       position: absolute;
+     }
+     &-item:nth-child(2){
+       background: none;
+       margin: 10px 0 0 7px;
+       border: 1px solid #000;
+     }
+   }
+    .navRec:hover{
+      .navRec-item:nth-child(2){
+        margin:0;
+        transition: 0.4s ease;
+      }
+    }
+    .navRecRadius{
+      border-radius:50%;
+      width: 20px;
+    }
+    .navRecRadius:nth-child(2){
+      margin: 10px 0 0 10px;;
+    }
+  }
+}
