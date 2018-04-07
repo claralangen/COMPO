@@ -1,20 +1,15 @@
 .navBar{
   padding: 50px 50px 0 50px;
-  width: 100%;
-  position:fixed;
-  clear: both;
-
+  display: flex;
+  justify-content: space-between;
+  position: relative;
   z-index: 1;
   &-left {
-    float: left;
-    top: 0;
     .navLogo{
       cursor: pointer;
     }
   }
   &-right{
-    top: 0;
-    float: right;
     cursor: pointer;
    .navRec{
      position: relative;
