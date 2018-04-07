@@ -4,8 +4,14 @@ import '../styles/main.scss';
 import './data.js';
 import './dataDisplay.js';
 import './player.js';
-import './ui.js';
+
 import './uiComponents/generateBgCircles.js'
 import './uiComponents/navBar.js'
+import './displayCardImg.js'
+
+import './uiIndex.js';
+
+
+
 
 window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
