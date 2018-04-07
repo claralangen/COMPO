@@ -1,6 +1,6 @@
 import {composers} from "../data";
 
-export function generatePoster(){
+export function generatePosterContainer(){
 
     const posterContainer = document.querySelector('.posterContainer');
 
@@ -13,15 +13,13 @@ export function generatePoster(){
 
 }
 
-export function generatePosterText(){
+export function generatePosterContent(){
 
     const posterContainerItem = document.querySelector('.posterContainer-item');
 
     let posterTitle = document.createElement('h3');
     let randomComposer = Math.floor(Math.random()* composers.length);
     let randomMovie = Math.floor(Math.random()* composers[randomComposer].movies.length);
-    console.log(randomComposer);
-    console.log(randomMovie);
 
     posterTitle.classList.add('posterContainer-title');
     posterTitle.textContent = composers[randomComposer].movies[randomMovie].name;
