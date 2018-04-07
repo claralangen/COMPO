@@ -1,1 +1,1 @@
-import '../displayCardImg.js'
+import './displayCoverImg.js'

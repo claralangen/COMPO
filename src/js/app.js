@@ -8,7 +8,7 @@ import './player.js';
 import './uiComponents/generateBgCircles.js'
 import './uiComponents/navBar.js'
 
-import './displayCardImg.js'
+import './uiComponents/displayCoverImg.js'
 
 import './uiIndex.js';
 

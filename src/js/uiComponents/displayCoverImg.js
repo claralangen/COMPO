@@ -1,4 +1,4 @@
-import {composers} from "./data";
+import {composers} from "../data";
 
 export function displayBackground(){
     const backgroundImg = document.querySelector('.header');
