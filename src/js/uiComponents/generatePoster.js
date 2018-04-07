@@ -13,19 +13,32 @@ export function generatePosterContainer(){
 
 }
 
-export function generatePosterContent(){
+export function generatePosterContent() {
 
-    const posterContainerItem = document.querySelector('.posterContainer-item');
+    const posterContainerItem = document.querySelectorAll('.posterContainer-item');
 
-    let posterTitle = document.createElement('h3');
-    let randomComposer = Math.floor(Math.random()* composers.length);
-    let randomMovie = Math.floor(Math.random()* composers[randomComposer].movies.length);
+    for (let i = 0; i < posterContainerItem.length; i++) {
 
-    posterTitle.classList.add('posterContainer-title');
-    posterTitle.textContent = composers[randomComposer].movies[randomMovie].name;
-    posterContainerItem.appendChild(posterTitle);
+        let posterImg = document.createElement('div');
+        let posterTitle = document.createElement('h3');
+        let posterDate = document.createElement('p');
+
+        let randomComposer = Math.floor(Math.random() * composers.length);
+        let randomMovie = Math.floor(Math.random() * composers[randomComposer].movies.length);
+
+        posterImg.classList.add('posterContainer-img');
+        posterContainerItem[i].appendChild(posterImg);
+
+        posterTitle.textContent = composers[randomComposer].movies[randomMovie].name;
+        posterTitle.classList.add('posterContainer-title');
+        posterContainerItem[i].appendChild(posterTitle);
+
+        posterDate.textContent = composers[randomComposer].movies[randomMovie].date;
+        posterDate.classList.add('posterContainer-date');
+        posterContainerItem[i].appendChild(posterDate);
+
+    }
 }
-
 
 
 

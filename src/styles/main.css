@@ -49,7 +49,9 @@ table {
   padding: 50px 50px 0 50px;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  width: 92%;
+  top: 0;
   z-index: 1; }
   .navBar-left .navLogo {
     cursor: pointer; }
@@ -85,7 +87,6 @@ table {
   align-items: center;
   position: relative;
   height: 190vh;
-  margin-top: -6%;
   overflow: hidden; }
   .bgCircles .circleItem {
     position: absolute;
@@ -97,16 +98,38 @@ table {
 .posterContainer {
   margin: 0 auto;
   width: 66.94%;
-  height: 1000px;
+  height: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
   .posterContainer-item {
     width: 20.75%;
+    height: 360px;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; }
+  .posterContainer-img {
+    width: 100%;
     height: 300px;
-    background: #29253a;
+    background: #4236ff;
     z-index: 1;
     cursor: pointer; }
+  .posterContainer-title {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Avenir Next Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 16px; }
+  .posterContainer-date {
+    color: white;
+    margin-top: 2px;
+    font-family: 'Avenir Next Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px; }
+
+.is-hidden {
+  display: none; }
 
 .header {
   height: 825px; }
