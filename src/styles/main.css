@@ -46,9 +46,9 @@ table {
   border-spacing: 0; }
 
 .navBar {
+  padding: 50px 50px 0 50px;
   display: flex;
   justify-content: space-between;
-  padding: 50px 60px 0 50px;
   position: relative;
   z-index: 1; }
   .navBar-left .navLogo {
@@ -58,7 +58,8 @@ table {
     .navBar-right .navRec {
       position: relative;
       width: 21px;
-      height: 31px; }
+      height: 31px;
+      margin-top: -10px; }
       .navBar-right .navRec-item {
         width: 13px;
         height: 20px;
@@ -69,14 +70,14 @@ table {
       .navBar-right .navRec-item:nth-child(2) {
         background: none;
         margin: 10px 0 0 7px; }
-    .navBar-right .navRec:hover .navRec-item:nth-child(2) {
-      margin: 0;
+    .navBar-right .navRec:hover .navRec-item:nth-child(1) {
+      margin: 10px 0 0 7px;
       transition: 0.4s ease; }
     .navBar-right .navRecRadius {
       border-radius: 50%;
       width: 20px; }
-    .navBar-right .navRecRadius:nth-child(2) {
-      margin: 10px 0 0 10px; }
+    .navBar-right .navRecRadius:nth-child(1) {
+      margin: 0; }
 
 .bgCircles {
   display: flex;
@@ -93,9 +94,6 @@ table {
     -moz-box-shadow: inset 0px 0px 41px -12px black;
     box-shadow: inset 0px 0px 41px -12px black; }
 
-body {
-  position: relative; }
-
 .posterContainer {
   margin: 0 auto;
   width: 66.94%;
@@ -106,23 +104,18 @@ body {
   .posterContainer-item {
     width: 20.75%;
     height: 300px;
-    background: #29253a; }
+    background: #29253a;
+    z-index: 1;
+    cursor: pointer; }
+
+.header {
+  height: 825px; }
 
 html {
   font-size: 16px;
   width: 100%; }
 
-body {
+.main {
   background: #E8083F; }
-
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #a30eff; }
-
-.circle:hover {
-  background: #16ffe1;
-  transition: 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */
