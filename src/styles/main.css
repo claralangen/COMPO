@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px 0 50px;
+  position: relative;
+  z-index: 1; }
+  .navBar-left .navLogo {
+    cursor: pointer; }
+  .navBar-right {
+    cursor: pointer; }
+    .navBar-right .navRec {
+      position: relative;
+      width: 21px;
+      height: 31px; }
+      .navBar-right .navRec-item {
+        width: 13px;
+        height: 20px;
+        background: #000;
+        border: 1px solid #000;
+        position: absolute;
+        transition: 0.4s ease; }
+      .navBar-right .navRec-item:nth-child(2) {
+        background: none;
+        margin: 10px 0 0 7px; }
+    .navBar-right .navRec:hover .navRec-item:nth-child(2) {
+      margin: 0;
+      transition: 0.4s ease; }
+    .navBar-right .navRecRadius {
+      border-radius: 50%;
+      width: 20px; }
+    .navBar-right .navRecRadius:nth-child(2) {
+      margin: 10px 0 0 10px; }
+
+.bgCircles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 190vh;
+  margin-top: -6%;
+  overflow: hidden; }
+  .bgCircles .circleItem {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px 41px -12px black;
+    -moz-box-shadow: inset 0px 0px 41px -12px black;
+    box-shadow: inset 0px 0px 41px -12px black; }
+
+body {
+  position: relative; }
+
+.posterContainer {
+  margin: 0 auto;
+  width: 66.94%;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .posterContainer-item {
+    width: 20.75%;
+    height: 300px;
+    background: #29253a; }
+
+html {
+  font-size: 16px;
+  width: 100%; }
+
+body {
+  background: #E8083F; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #a30eff; }
+
+.circle:hover {
+  background: #16ffe1;
+  transition: 0.2s ease; }
+
+/*# sourceMappingURL=main.css.map */
