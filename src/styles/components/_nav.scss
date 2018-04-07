@@ -2,7 +2,9 @@
   padding: 50px 50px 0 50px;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  width: 92%;
+  top: 0;
   z-index: 1;
   &-left {
     .navLogo{
