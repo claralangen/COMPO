@@ -1,4 +1,4 @@
-@import "global/reset";
+@import "./global/reset";
 
 @import "./mixins/forSize";
 
@@ -7,16 +7,19 @@
 @import "./components/moviePoster";
 
 
-@import "components/HeaderCompoCard";
+@import "./components/HeaderCompoCard";
+@import "./components/SectionCompoCard";
 
 
 
 html {
-  font-size: 16px;
+  font-size: 62.5%;
   width: 100%;
 }
-
-.main{
+body{
+  font-family: 'Avenir Next Condensed', sans-serif;
+}
+.page{
   background: #E8083F;
 }
 

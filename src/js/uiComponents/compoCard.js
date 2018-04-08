@@ -1,1 +1,1 @@
-import './displayCoverImg.js'
+import './displayCoverHeader.js'

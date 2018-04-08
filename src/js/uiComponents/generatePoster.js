@@ -36,7 +36,6 @@ export function generatePosterContent() {
         posterDate.textContent = composers[randomComposer].movies[randomMovie].date;
         posterDate.classList.add('posterContainer-date');
         posterContainerItem[i].appendChild(posterDate);
-
     }
 }
 

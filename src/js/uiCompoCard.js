@@ -1,4 +1,6 @@
-import {get_the_name} from "./dataDisplay";
-import {displayBackground} from "./uiComponents/displayCoverImg";
+import {displayBackground} from "./uiComponents/displayCoverHeader";
+import {generatePosterContainer, generatePosterContent} from "./uiComponents/generatePoster";
 
 displayBackground();
+generatePosterContainer();
+generatePosterContent();
