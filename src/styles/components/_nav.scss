@@ -3,7 +3,10 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  width: 92%;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
   top: 0;
   z-index: 1;
   &-left {
@@ -56,8 +59,9 @@
      height: 31px;
      margin-top: -10px;
      &-item{
-       width: 13px;
+       width: 20px;
        height: 20px;
+       border-radius:50%;
        background: #000;
        border: 1px solid #000;
        position: absolute;
@@ -65,18 +69,18 @@
      }
      &-item:nth-child(2){
        background: none;
-       margin: 10px 0 0 7px;
+       margin: 10px 0 0 10px;
      }
    }
     .navRec:hover{
       .navRec-item:nth-child(1){
-        margin:10px 0 0 7px;
+        margin:10px 0 0 10px;
         transition: 0.4s ease;
       }
     }
     .navRecRadius{
-      border-radius:50%;
-      width: 20px;
+      border-radius: 0;
+      width: 13px;
     }
     .navRecRadius:nth-child(1){
       margin: 0;

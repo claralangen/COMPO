@@ -1,0 +1,84 @@
+.headerSection:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.headerSection{
+  position: relative;
+  background: #05024F;
+  height: 100vh;
+  color: #fff;
+  .header{
+    width: 74.5%;
+    margin:0 auto;
+  }
+  // ----------------NAV-------------------------- 
+  .navBar{
+    left: 53px;
+    &-left{
+      display: flex;
+      justify-content: space-between;
+      width: 46%;
+      .filter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        height: 36px;
+        border-radius: 18px;
+        border: 1px solid #fff;
+        padding: 0 15px;
+        font-size: 1.6rem;
+      }
+      .filterBy{
+        width: 33.5%;
+        background: #fff;
+        color: #E8093F;
+        font-weight: bold;
+      }
+      .popularity{
+        width: 16.2%;
+      }
+      .date{
+        width: 11%;
+      }
+      .name{
+        width: 6%;
+      }
+    }
+    &-right{
+
+    }
+  }
+  
+  //---------------TITLE ----------------------
+  .compoInfo{
+    z-index: 2;
+    position: relative;
+    font-size: 1.8rem;
+
+    .coverTitle{
+      color: #fff;
+      font-size: 10rem;
+      font-family: "Abril Fatface", sans-serif;
+      text-transform: uppercase;
+      padding-top: 200px;
+      width: 42%;
+    }
+    .preBiography{
+      padding: 5.1rem 0;
+    }
+    .biography{
+      line-height: 3.1rem;
+    }
+
+  }
+
+}

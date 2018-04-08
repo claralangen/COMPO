@@ -5,16 +5,55 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
+    <title>Compo</title>
 </head>
 <body>
+<main class="main">
+    <section class="headerSection">
 
-    <header class="header">
-        <nav class="navBar">
+        <header class="header">
+            <nav class="navBar">
+                <div class="navBar-left">
+                    <div class="filter filterBy">
+                        <p class="filterText">Trier par</p>
+                        <div class="filterImg">
+                            <img src="./assets/imgs/filterPlus.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="filter popularity">
+                        <p class="filterText">Popularité</p>
+                        <div class="filterImg">
+                            <img src="./assets/imgs/filterArrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="filter date">
+                        <p class="filterText">Date</p>
+                        <div class="filterImg">
+                            <img src="./assets/imgs/filterArrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="filter name">
+                        <p class="filterText">Nom</p>
+                    </div>
+                </div>
+                <div class="navBar-right"></div>
+            </nav>
+            <div class="compoInfo">
+                <h2 class="coverTitle"></h2>
+                <p class="preBiography"></p>
+                <p class="biography"></p>
+            </div>
+        </header>
 
-        </nav>
-    </header>
+    </section>
 
+    <section class="posterSection">
+
+        <div class="posterContainer"></div>
+
+    </section>
+    <a href="index.html">index</a>
+</main>
 
     <script>
     var tag = document.createElement('script');

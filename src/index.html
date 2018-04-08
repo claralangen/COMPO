@@ -8,11 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="main">
+    <section class="page">
 
         <nav class="navBar">
             <div class="navBar-left">
-                <a href="#home"><img src="./assets/imgs/navLogo.png" alt="" class="navLogo"></a>
+
+                <a href="#home"><img src="./assets/imgs/navLogo.svg" alt="" class="navLogo"></a>
                 <div class="filters">
                     <div class="filter">Trier par</div>
                     <div class="filter-by active">Compositeur</div>
@@ -20,6 +21,7 @@
                     <div class="filter-by active">Date</div>
                     <div class="filter-by active">Nom</div>
                 </div>
+
             </div>
             <div class="navBar-right">
                 <div class="navRec">
@@ -33,15 +35,16 @@
             <div class="posterContainer"></div>
         </div>
 
+        <a href="compoCard.html">CompoCard</a>
 
-    </main>
+    </section>
 
 
     <script>
-        var tag = document.createElement('script');
+        let tag = document.createElement('script');
 
         tag.src = "https://www.youtube.com/iframe_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
+        let firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     </script>
 

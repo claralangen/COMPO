@@ -1,4 +1,5 @@
 import '../styles/global/_reset.scss';
+
 import '../styles/main.scss';
 
 import './data.js';
@@ -8,7 +9,7 @@ import './player.js';
 import './uiComponents/generateBgCircles.js'
 import './uiComponents/navBar.js'
 
-import './displayCardImg.js'
+import './uiComponents/displayCoverHeader.js'
 
 import './uiIndex.js';
 
