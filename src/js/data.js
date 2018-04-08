@@ -1,5 +1,5 @@
 import JohnWilliamsBackgroundImage from '../assets/imgs/cover/JW.jpg';
-import JohnWilliamsFaceImage from '../assets/imgs/face/williams-john-52e88063ad489.jpg';
+import JohnWilliamsFaceImage from '../assets/imgs/face/JW.jpg';
 
 export const composers = [
     {
@@ -18,7 +18,7 @@ export const composers = [
                     id : 'CwB16m3abyM',
                     duration : 132
                 },
-               {
+                {
                     name : 'Harry\'s Wondrous World',
                     id : '3vDLUuAI7bk',
                     duration : 320
@@ -478,305 +478,734 @@ export const composers = [
                     duration : 300
                 },
                 {
-                    name : 'Buckbeak\'s Flight',
-                    id : 'x0nVcqvCzUQ',
+                    name : 'Arrival on Dagobah',
+                    id : 'NlTD8VB3YCI',
                     duration : 300
                 },
                 {
-                    name : 'A Window To The Past',
-                    id : '4JRllDLk2Zg',
+                    name : 'Luke\'s Nocturnal Visitor',
+                    id : 'nA5Fr5gP4TA',
                     duration : 300
                 },
                 {
-                    name : 'The Whomping Willow And The Snowball Fight',
-                    id : 'g2W4-wMWMzM',
+                    name : 'Han Solo and the Princess',
+                    id : '2f5f-MHZZ7o',
                     duration : 300
                 },
                 {
-                    name : 'Secrets Of The Castle',
-                    id : 'pNPsC1iVBAM',
+                    name : 'Jedi Master Revealed & Mynock Cave',
+                    id : '7ZDv0gTjavM',
                     duration : 300
                 },
                 {
-                    name : 'The Portrait Gallery',
-                    id : 'kljw3ZhscZ8',
+                    name : 'The Training of a Jedi Knight & The Magic Tree',
+                    id : 'b2DbYY3cI9s',
                     duration : 300
                 },
                 {
-                    name : 'Hagrid The Professor',
-                    id : '5BkyB9jis8Y',
+                    name : 'The Imperial March (Darth Vader\'s Theme)',
+                    id : '4oyJzmyvIAI',
                     duration : 300
                 },
                 {
-                    name : 'Monster Books And Boggarts!',
-                    id : '46kfBZAKCOQ',
+                    name : 'Yoda\'s Theme',
+                    id : 'AEbAxIut3Vw',
                     duration : 300
                 },
                 {
-                    name : 'Quidditch, Third Year',
-                    id : 'W2oFwVWCNvM',
+                    name : 'Attacking a Star Destroyer',
+                    id : 'QcH-acGsyBo',
                     duration : 300
                 },
                 {
-                    name : 'Lupin\'s Transformation And Chasing Scabbers',
-                    id : 'UeOn9gkYjDY',
+                    name : 'Yoda and the Force',
+                    id : '9yVgHBvXRtA',
                     duration : 300
                 },
                 {
-                    name : 'The Patronus Light',
-                    id : 'fCSQbCyYIOQ',
+                    name : 'Imperial Starfleet Deployed & City in the Clouds',
+                    id : '3O0KAtzbk7g',
                     duration : 300
                 },
                 {
-                    name : 'The Werewolf Scene',
-                    id : 'dsI4f2fOqyo',
+                    name : 'Lando\'s Palace',
+                    id : 'VHWCAua-BQ0',
                     duration : 300
                 },
                 {
-                    name : 'Saving Buckbeak',
-                    id : '3vnpJpUWBWA',
+                    name : 'Betrayal at Bespin',
+                    id : 'NI9k3fiE0os',
                     duration : 300
                 },
                 {
-                    name : 'Forward To Time Past',
-                    id : 'IKz-ReVO7vY',
+                    name : 'Deal with the Dark Lord',
+                    id : 'Uigwsl2kPgw',
                     duration : 300
                 },
                 {
-                    name : 'The Dementors Converge',
-                    id : 'n3fZXDMr7os',
+                    name : 'Carbon Freeze & Darth Vader\'s Trap & Departure of Boba Fett',
+                    id : 'VrPAIRINHNo',
                     duration : 300
                 },
                 {
-                    name : 'Finale',
-                    id : 'jzTDbalYiOE',
+                    name : 'The Clash of Lightsabers & The Stormtroopers are Coming',
+                    id : '8abmwj382hI',
                     duration : 300
                 },
                 {
-                    name : 'Mischief Managed!',
-                    id : 'soCCX8bEnAQ',
+                    name : 'Rescue from Cloud City & Hyperspace',
+                    id : 'b4cpbRaaN14',
+                    duration : 300
+                },
+                {
+                    name : 'The Rebel Fleet',
+                    id : 'fjjDYzz9Mmc',
                     duration : 300
                 }
             ]
         },{
-            name : 'Harry Potter et le Prisonnier d\'Azkaban',
-            picture : 'imgs/movie/Le_Prisonnier_d\'Azkaban.png',
-            date : '2004',
+            name : 'Star Wars, épisode VI : Le Retour du Jedi',
+            picture : 'imgs/movie/Star_Wars_VI.jpg',
+            date : '1983',
             musics : [
                 {
-                    name : 'Lumos! Hedwige\'s Theme',
-                    id : '5FfQcQxDCNE',
+                    name : 'Approaching the Death Star & Tatooine Rendezvous',
+                    id : 'QHDwsugIyCw',
                     duration : 300
                 },
                 {
-                    name : 'Aunt Marge\'s Waltz',
-                    id : 'P4TQ-IoioOU',
+                    name : 'The Droids Are Captured',
+                    id : 'Ptmm3c1Cep0',
                     duration : 300
                 },
                 {
-                    name : 'The Knight Bus',
-                    id : 'vu-LnN4QpMA',
+                    name : 'Bounty for a Wookiee',
+                    id : 'ioX5eMykLi0',
                     duration : 300
                 },
                 {
-                    name : 'Apparition On The Train',
-                    id : 'Zw--KnQX568',
+                    name : 'Han Solo Returns',
+                    id : 'TCp3LTkBngk',
                     duration : 300
                 },
                 {
-                    name : 'Double Trouble',
-                    id : '5wLgl3jC9Mc',
+                    name : 'Luke Confronts Jabba & Den of the Rancor & Sarlacc Sentence',
+                    id : 'oBm1pr8ikpc',
                     duration : 300
                 },
                 {
-                    name : 'Buckbeak\'s Flight',
-                    id : 'x0nVcqvCzUQ',
+                    name : 'The Pit of Carkoon & Sail Barge Assault',
+                    id : 'tei3gr3t5eo',
                     duration : 300
                 },
                 {
-                    name : 'A Window To The Past',
-                    id : '4JRllDLk2Zg',
+                    name : 'The Emperor Arrives & The Death of Yoda & Obi Wan\'s Revelation',
+                    id : 'jXKM9BTc5qQ',
                     duration : 300
                 },
                 {
-                    name : 'The Whomping Willow And The Snowball Fight',
-                    id : 'g2W4-wMWMzM',
+                    name : 'Alliance Assembly',
+                    id : 'ZYH1x9_QTyc',
                     duration : 300
                 },
                 {
-                    name : 'Secrets Of The Castle',
-                    id : 'pNPsC1iVBAM',
+                    name : 'Shuttle Tydirium Approaches Endor',
+                    id : 'DcS9Uvb56sI',
                     duration : 300
                 },
                 {
-                    name : 'The Portrait Gallery',
-                    id : 'kljw3ZhscZ8',
+                    name : 'Speeder Bike Chase & Land of the Ewoks',
+                    id : '2TV70R1d-YU',
                     duration : 300
                 },
                 {
-                    name : 'Hagrid The Professor',
-                    id : '5BkyB9jis8Y',
+                    name : 'The Levitation & Threepio\'s Bedtime Story',
+                    id : 'UtJ6LxpKvqw',
                     duration : 300
                 },
                 {
-                    name : 'Monster Books And Boggarts!',
-                    id : '46kfBZAKCOQ',
+                    name : 'Jabba\'s Baroque Recital',
+                    id : '8v0ybr8LhI4',
                     duration : 300
                 },
                 {
-                    name : 'Quidditch, Third Year',
-                    id : 'W2oFwVWCNvM',
+                    name : 'Jedi Rocks',
+                    id : 'AOO2r8L437A',
                     duration : 300
                 },
                 {
-                    name : 'Lupin\'s Transformation And Chasing Scabbers',
-                    id : 'UeOn9gkYjDY',
+                    name : 'Sail Barge Assault (Alternate)',
+                    id : '_8UOosgRSkQ',
                     duration : 300
                 },
                 {
-                    name : 'The Patronus Light',
-                    id : 'fCSQbCyYIOQ',
+                    name : 'Parade of the Ewoks',
+                    id : '7fwH8a8eFbY',
                     duration : 300
                 },
                 {
-                    name : 'The Werewolf Scene',
-                    id : 'dsI4f2fOqyo',
+                    name : 'Luke and Leia',
+                    id : 'jt1KRq2nzw4',
                     duration : 300
                 },
                 {
-                    name : 'Saving Buckbeak',
-                    id : '3vnpJpUWBWA',
+                    name : 'Brother and Sister & Father and Son & The Fleet Enters Hyperspace',
+                    id : 'FBZliZZjcss',
                     duration : 300
                 },
                 {
-                    name : 'Forward To Time Past',
-                    id : 'IKz-ReVO7vY',
+                    name : 'Emperor\'s Throne Room',
+                    id : 'j0KfrXvCUz4',
                     duration : 300
                 },
                 {
-                    name : 'The Dementors Converge',
-                    id : 'n3fZXDMr7os',
+                    name : 'The Lightsaber & The Ewok Battle',
+                    id : 'fI4zMhbm3Ek',
                     duration : 300
                 },
                 {
-                    name : 'Finale',
-                    id : 'jzTDbalYiOE',
+                    name : 'The Battle Of Endor I',
+                    id : 'OIlSziZoqu4',
                     duration : 300
                 },
                 {
-                    name : 'Mischief Managed!',
-                    id : 'soCCX8bEnAQ',
+                    name : 'The Battle Of Endor II',
+                    id : '0YD0lCHGv0o',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle Of Endor III',
+                    id : 'VYIJaw4V2VU',
+                    duration : 300
+                },
+                {
+                    name : 'Leia\'s News & Light of the Force',
+                    id : 'ahtcgBpRjAI',
+                    duration : 300
+                },
+                {
+                    name : 'Victory Celebration',
+                    id : 'ZcTws2u89Xk',
+                    duration : 300
+                },
+                {
+                    name : 'Ewok Feast & Part of the Tribe',
+                    id : 'RHSCfdDqR7Y',
+                    duration : 300
+                },
+                {
+                    name : 'The Forest Battle (Concert Suite)',
+                    id : '44URLNTvwxM',
                     duration : 300
                 }
             ]
         },{
-            name : 'Harry Potter et le Prisonnier d\'Azkaban',
-            picture : 'imgs/movie/Le_Prisonnier_d\'Azkaban.png',
-            date : '2004',
+            name : 'Star Wars, épisode I : La Menace fantôme',
+            picture : 'imgs/movie/Star_Wars_I.jpg',
+            date : '1999',
             musics : [
                 {
-                    name : 'Lumos! Hedwige\'s Theme',
-                    id : '5FfQcQxDCNE',
+                    name : 'The Arrival At Naboo',
+                    id : 'tq3pH4sng0Q',
                     duration : 300
                 },
                 {
-                    name : 'Aunt Marge\'s Waltz',
-                    id : 'P4TQ-IoioOU',
+                    name : 'Duel of the Fates',
+                    id : 'P4TQ-IhJEgOYQuzo',
                     duration : 300
                 },
                 {
-                    name : 'The Knight Bus',
-                    id : 'vu-LnN4QpMA',
+                    name : 'Anakin\'s Theme',
+                    id : 'QlGYgbx5D6U',
                     duration : 300
                 },
                 {
-                    name : 'Apparition On The Train',
-                    id : 'Zw--KnQX568',
+                    name : 'Jar Jar\'s Introduction & The Swim to Otoh Gunga',
+                    id : 'kkxEEIcM0EE',
                     duration : 300
                 },
                 {
-                    name : 'Double Trouble',
-                    id : '5wLgl3jC9Mc',
+                    name : 'The Sith Spacecraft & The Droid Battle',
+                    id : 'Z_gQXA73WRw',
                     duration : 300
                 },
                 {
-                    name : 'Buckbeak\'s Flight',
-                    id : 'x0nVcqvCzUQ',
+                    name : 'The Trip to the Naboo Temple & The Audience with Boss Nass',
+                    id : 'v8UmxOcxYbU',
                     duration : 300
                 },
                 {
-                    name : 'A Window To The Past',
-                    id : '4JRllDLk2Zg',
+                    name : 'The Arrival at Tatooine & The Flag Parade',
+                    id : '4MlTOeGMo3w',
                     duration : 300
                 },
                 {
-                    name : 'The Whomping Willow And The Snowball Fight',
-                    id : 'g2W4-wMWMzM',
+                    name : 'He Is the Chosen One',
+                    id : '0o-P7me3go4',
                     duration : 300
                 },
                 {
-                    name : 'Secrets Of The Castle',
-                    id : 'pNPsC1iVBAM',
+                    name : 'Anakin Defeats Sebulba',
+                    id : 'E6sMbSlPcn8',
                     duration : 300
                 },
                 {
-                    name : 'The Portrait Gallery',
-                    id : 'kljw3ZhscZ8',
+                    name : 'Passage Through the Planet Core',
+                    id : 'c6YLU74Pw-g',
                     duration : 300
                 },
                 {
-                    name : 'Hagrid The Professor',
-                    id : '5BkyB9jis8Y',
+                    name : 'Watto\'s Deal & Kids at Play',
+                    id : 'p72n4njK6j4',
                     duration : 300
                 },
                 {
-                    name : 'Monster Books And Boggarts!',
-                    id : '46kfBZAKCOQ',
+                    name : 'Panaka and the Queen\'s Protectors',
+                    id : 'm-3HVgS8DVk',
                     duration : 300
                 },
                 {
-                    name : 'Quidditch, Third Year',
-                    id : 'W2oFwVWCNvM',
+                    name : 'Queen Amidala & The Naboo Palace',
+                    id : '1eWwJbQKcBY',
                     duration : 300
                 },
                 {
-                    name : 'Lupin\'s Transformation And Chasing Scabbers',
-                    id : 'UeOn9gkYjDY',
+                    name : 'The Droid Invasion & The Appearance of Darth Maul',
+                    id : 'ojBvyVmgx-g',
                     duration : 300
                 },
                 {
-                    name : 'The Patronus Light',
-                    id : 'fCSQbCyYIOQ',
+                    name : 'Qui Gon\'s Noble End',
+                    id : '900RpJeHtvo',
                     duration : 300
                 },
                 {
-                    name : 'The Werewolf Scene',
-                    id : 'dsI4f2fOqyo',
+                    name : 'The High Council Meeting & Qui Gon\'s Funeral',
+                    id : '5RUd5NQLaFE',
                     duration : 300
                 },
                 {
-                    name : 'Saving Buckbeak',
-                    id : '3vnpJpUWBWA',
+                    name : 'Augie\'s Great Municipal Band',
+                    id : 'nJU00E2eI1k',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Star Wars, épisode II : L\'Attaque des clones',
+            picture : 'imgs/movie/Star_Wars_II.jpg',
+            date : '2002',
+            musics : [
+                {
+                    name : 'Ambush On Coruscant',
+                    id : 'HoTNZLhAb4s',
                     duration : 300
                 },
                 {
-                    name : 'Forward To Time Past',
-                    id : 'IKz-ReVO7vY',
+                    name : 'Across The Stars',
+                    id : '9zmmeNzK_Ok',
                     duration : 300
                 },
                 {
-                    name : 'The Dementors Converge',
-                    id : 'n3fZXDMr7os',
+                    name : 'Zam The Assassin & The Chase Through Coruscant',
+                    id : 'QRBE4XxHMRk',
                     duration : 300
                 },
                 {
-                    name : 'Finale',
-                    id : 'jzTDbalYiOE',
+                    name : 'Yoda and the Younglings',
+                    id : 'L9ZUDxJJ6TI',
                     duration : 300
                 },
                 {
-                    name : 'Mischief Managed!',
-                    id : 'soCCX8bEnAQ',
+                    name : 'Departing Coruscant',
+                    id : '43qQQC1mDik',
+                    duration : 300
+                },
+                {
+                    name : 'Anakin and Padme',
+                    id : 'wgAvYgbrHo0',
+                    duration : 300
+                },
+                {
+                    name : 'Jango\'s Escape',
+                    id : 'FaUxTTT48bA',
+                    duration : 300
+                },
+                {
+                    name : 'The Meadow Picnic',
+                    id : '7tuAPkjKLFY',
+                    duration : 300
+                },
+                {
+                    name : 'Bounty Hunter\'s Hot Pursuit',
+                    id : 'XYhmiYzLrnA',
+                    duration : 300
+                },
+                {
+                    name : 'Return To Tatooine',
+                    id : 'rWHDUeAPjdg',
+                    duration : 300
+                },
+                {
+                    name : 'The Tusken Camp & The Homestead',
+                    id : 'mqR7RxrcnYI',
+                    duration : 300
+                },
+                {
+                    name : 'Love Pledge & The Arena',
+                    id : 'vWi14sZxLLw',
+                    duration : 300
+                },
+                {
+                    name : 'Confrontation with Count Dooku',
+                    id : '7FnVvOn9F80',
+                    duration : 300
+                },
+                {
+                    name : 'On The Conveyor Belt',
+                    id : 'pzfSAx_tLVg',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Star Wars, épisode III : La Revanche des Sith',
+            picture : 'imgs/movie/Star_Wars_III.jpg',
+            date : '2005',
+            musics : [
+                {
+                    name : 'Star Wars and Revenge of the Sith',
+                    id : 'Ia5-JGVeDkw',
+                    duration : 300
+                },
+                {
+                    name : 'Anakin\'s Dream',
+                    id : 'kEOCr8FGLZA',
+                    duration : 300
+                },
+                {
+                    name : 'Battle of the Heroes',
+                    id : 'rZ1xVKyEEeg',
+                    duration : 300
+                },
+                {
+                    name : 'Anakin\'s Betrayal',
+                    id : 'S7tJLbjPUnc',
+                    duration : 300
+                },
+                {
+                    name : 'General Grievous',
+                    id : 'yq7gB7TsB_M',
+                    duration : 300
+                },
+                {
+                    name : 'Palatine\'s Teachings',
+                    id : 'FhtbrNOSk7M',
+                    duration : 300
+                },
+                {
+                    name : 'Grievous and the Droids',
+                    id : 'P0CYq-GWYYk',
+                    duration : 300
+                },
+                {
+                    name : 'Padme\'s Ruminations',
+                    id : 'XinMmcZpBbI',
+                    duration : 300
+                },
+                {
+                    name : 'Anakin vs. Obi-wan',
+                    id : 'YHfAIoc2XbA',
+                    duration : 300
+                },
+                {
+                    name : 'Anakin\'s Dark Deeds',
+                    id : 'QN3BntTh7fE',
+                    duration : 300
+                },
+                {
+                    name : 'Enter Lord Vader',
+                    id : 'J8WOIcwv1mo',
+                    duration : 300
+                },
+                {
+                    name : 'The Immolation Scene',
+                    id : 'B2wMju-Lhtw',
+                    duration : 300
+                },
+                {
+                    name : 'Grievous speaks to Lord Sidious',
+                    id : 'UG4PGGdNPc0',
+                    duration : 300
+                },
+                {
+                    name : 'The Birth of the twins and Padme\'s Destiny',
+                    id : '1Hva1SH5Eo4',
+                    duration : 300
+                },
+                {
+                    name : 'A New Hope part 1',
+                    id : 'YRUNYoQ7YSk',
+                    duration : 300
+                },
+                {
+                    name : 'A New Hope part 2',
+                    id : '0u8gmvSV3bg',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Star Wars, épisode VII : Le Réveil de la Force',
+            picture : 'imgs/movie/Star_Wars_VII.jpg',
+            date : '2015',
+            musics : [
+                {
+                    name : 'The Attack on the Jakku Village',
+                    id : 'y8ac1Qg-r-8',
+                    duration : 300
+                },
+                {
+                    name : 'The Scavenger',
+                    id : 'Q3YcCLaTnBE',
+                    duration : 300
+                },
+                {
+                    name : 'I Can Fly Anything',
+                    id : 'cHJrfB7VquM',
+                    duration : 300
+                },
+                {
+                    name : 'Rey Meets BB-8',
+                    id : '0SsWebgNH5E',
+                    duration : 300
+                },
+                {
+                    name : 'Follow Me',
+                    id : 'VLipUMfiiC8',
+                    duration : 300
+                },
+                {
+                    name : 'Rey\'s Theme',
+                    id : '65As1V0vQDM',
+                    duration : 300
+                },
+                {
+                    name : 'The Falcon',
+                    id : 'e8_2K7QNtpI',
+                    duration : 300
+                },
+                {
+                    name : 'That Girl with the Staff',
+                    id : 'n6nhlSIPO6o',
+                    duration : 300
+                },
+                {
+                    name : 'The Rathtars! ',
+                    id : '1jXL9dzzPTU',
+                    duration : 300
+                },
+                {
+                    name : 'Finn\'s Confession',
+                    id : 'kShrb-zSWMI',
+                    duration : 300
+                },
+                {
+                    name : 'Maz\'s Counsel',
+                    id : 'khq2TtKwH0s',
+                    duration : 300
+                },
+                {
+                    name : 'The Starkiller',
+                    id : 'P1a_0lAGpLA',
+                    duration : 300
+                },
+                {
+                    name : 'Kylo Ren Arrives at the Battle',
+                    id : 'NRRPCjr1Ito',
+                    duration : 300
+                },
+                {
+                    name : 'The Abduction',
+                    id : 'IUs88IY1A00',
+                    duration : 300
+                },
+                {
+                    name : 'Han and Leia',
+                    id : '1mRB-6IwZMs',
+                    duration : 300
+                },
+                {
+                    name : 'March of the Resistance',
+                    id : 'ueqKtype7Kk',
+                    duration : 300
+                },
+                {
+                    name : 'Snoke',
+                    id : 'mSQ3BJVMfAI',
+                    duration : 300
+                },
+                {
+                    name : 'On the Inside',
+                    id : '9LXKzapRXic',
+                    duration : 300
+                },
+                {
+                    name : 'Torn Apart',
+                    id : 'VwNpmpBC-t0',
+                    duration : 300
+                },
+                {
+                    name : 'The Ways of the Force',
+                    id : 'ACVE5nYGJxI',
+                    duration : 300
+                },
+                {
+                    name : 'Scherzo for X-Wings',
+                    id : 'xJzuanMUuS4',
+                    duration : 300
+                },
+                {
+                    name : 'Farewell and The Trip',
+                    id : 'Itzm8-kcOAg',
+                    duration : 300
+                },
+                {
+                    name : 'The Jedi Steps ',
+                    id : 'cUBUlKgsNK8',
+                    duration : 300
+                }
+            ]                                                      //---------------------------------DONE-----------------------------------
+        },{
+            name : 'Star Wars, épisode VIII : Le Retour du Jedi',
+            picture : 'imgs/movie/Star_Wars_VI.jpg',
+            date : '1983',
+            musics : [
+                {
+                    name : 'Approaching the Death Star & Tatooine Rendezvous',
+                    id : 'QHDwsugIyCw',
+                    duration : 300
+                },
+                {
+                    name : 'The Droids Are Captured',
+                    id : 'Ptmm3c1Cep0',
+                    duration : 300
+                },
+                {
+                    name : 'Bounty for a Wookiee',
+                    id : 'ioX5eMykLi0',
+                    duration : 300
+                },
+                {
+                    name : 'Han Solo Returns',
+                    id : 'TCp3LTkBngk',
+                    duration : 300
+                },
+                {
+                    name : 'Luke Confronts Jabba & Den of the Rancor & Sarlacc Sentence',
+                    id : 'oBm1pr8ikpc',
+                    duration : 300
+                },
+                {
+                    name : 'The Pit of Carkoon & Sail Barge Assault',
+                    id : 'tei3gr3t5eo',
+                    duration : 300
+                },
+                {
+                    name : 'The Emperor Arrives & The Death of Yoda & Obi Wan\'s Revelation',
+                    id : 'jXKM9BTc5qQ',
+                    duration : 300
+                },
+                {
+                    name : 'Alliance Assembly',
+                    id : 'ZYH1x9_QTyc',
+                    duration : 300
+                },
+                {
+                    name : 'Shuttle Tydirium Approaches Endor',
+                    id : 'DcS9Uvb56sI',
+                    duration : 300
+                },
+                {
+                    name : 'Speeder Bike Chase & Land of the Ewoks',
+                    id : '2TV70R1d-YU',
+                    duration : 300
+                },
+                {
+                    name : 'The Levitation & Threepio\'s Bedtime Story',
+                    id : 'UtJ6LxpKvqw',
+                    duration : 300
+                },
+                {
+                    name : 'Jabba\'s Baroque Recital',
+                    id : '8v0ybr8LhI4',
+                    duration : 300
+                },
+                {
+                    name : 'Jedi Rocks',
+                    id : 'AOO2r8L437A',
+                    duration : 300
+                },
+                {
+                    name : 'Sail Barge Assault (Alternate)',
+                    id : '_8UOosgRSkQ',
+                    duration : 300
+                },
+                {
+                    name : 'Parade of the Ewoks',
+                    id : '7fwH8a8eFbY',
+                    duration : 300
+                },
+                {
+                    name : 'Luke and Leia',
+                    id : 'jt1KRq2nzw4',
+                    duration : 300
+                },
+                {
+                    name : 'Brother and Sister & Father and Son & The Fleet Enters Hyperspace',
+                    id : 'FBZliZZjcss',
+                    duration : 300
+                },
+                {
+                    name : 'Emperor\'s Throne Room',
+                    id : 'j0KfrXvCUz4',
+                    duration : 300
+                },
+                {
+                    name : 'The Lightsaber & The Ewok Battle',
+                    id : 'fI4zMhbm3Ek',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle Of Endor I',
+                    id : 'OIlSziZoqu4',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle Of Endor II',
+                    id : '0YD0lCHGv0o',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle Of Endor III',
+                    id : 'VYIJaw4V2VU',
+                    duration : 300
+                },
+                {
+                    name : 'Leia\'s News & Light of the Force',
+                    id : 'ahtcgBpRjAI',
+                    duration : 300
+                },
+                {
+                    name : 'Victory Celebration',
+                    id : 'ZcTws2u89Xk',
+                    duration : 300
+                },
+                {
+                    name : 'Ewok Feast & Part of the Tribe',
+                    id : 'RHSCfdDqR7Y',
+                    duration : 300
+                },
+                {
+                    name : 'The Forest Battle (Concert Suite)',
+                    id : '44URLNTvwxM',
                     duration : 300
                 }
             ]
