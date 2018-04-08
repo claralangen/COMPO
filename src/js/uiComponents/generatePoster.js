@@ -5,8 +5,9 @@ export function generatePosterContainer(){
     const posterContainer = document.querySelector('.posterContainer');
 
     for (let i = 0; i < 12; i++) {
-        let poster = document.createElement('div');
+        let poster = document.createElement('a');
         poster.classList.add('posterContainer-item');
+        poster.setAttribute('href','compoCard.html');
         posterContainer.appendChild(poster);
 
     }

@@ -7,8 +7,45 @@
   top: 0;
   z-index: 1;
   &-left {
+    display: flex;
+    justify-content: space-around;
     .navLogo{
       cursor: pointer;
+    }
+    .filters{
+      display: flex;
+      margin-left: 80px;
+
+      .filter{
+        width: 160px;
+        height: 36px;
+        border-radius: 100px;
+        font-family: AvenirNextCondensed-DemiBold, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 36px;
+        padding: 0 20px;
+        background-image: linear-gradient(45deg, #4d46ff 0%, #e8083f 100%);
+        cursor: pointer;
+        &-by{
+          margin-left: 20px;
+          border: solid 1px white;
+          border-radius: 100px;
+          font-family: AvenirNextCondensed-DemiBold, sans-serif;
+          font-size: 16px;
+          font-weight: 100;
+          line-height: 36px;
+          padding: 0 20px;
+          color: #FFFFFF;
+          cursor: pointer;
+          display:none;
+        }
+        .active{
+          display: block;
+        }
+        }
+
     }
   }
   &-right{
