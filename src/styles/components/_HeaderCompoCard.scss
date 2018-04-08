@@ -1,6 +1,19 @@
+.headerSection:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.3;
+}
+
 .headerSection{
+  position: relative;
+  background: #05024F;
   height: 100vh;
-  width: 100vw;
   color: #fff;
   .header{
     width: 74.5%;
@@ -46,20 +59,26 @@
   }
   
   //---------------TITLE ----------------------
-  .coverTitle{
-    color: #fff;
-    font-size: 10rem;
-    font-family: "Abril Fatface", sans-serif;
-    text-transform: uppercase;
-    padding-top: 200px;
-    width: 42%;
-  }
-  .preBiography{
+  .compoInfo{
+    z-index: 2;
+    position: relative;
     font-size: 1.8rem;
-    padding: 5.1rem 0;
+
+    .coverTitle{
+      color: #fff;
+      font-size: 10rem;
+      font-family: "Abril Fatface", sans-serif;
+      text-transform: uppercase;
+      padding-top: 200px;
+      width: 42%;
+    }
+    .preBiography{
+      padding: 5.1rem 0;
+    }
+    .biography{
+      line-height: 3.1rem;
+    }
+
   }
-  .biography{
-    font-size: 1.8rem;
-    line-height: 3.1rem;
-  }
+
 }

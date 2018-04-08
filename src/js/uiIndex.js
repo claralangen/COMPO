@@ -1,4 +1,5 @@
 import {get_the_name} from "./dataDisplay";
+import {toggleRecCircle} from "./uiComponents/navBar";
 import {circleProperties,generateCircle} from "./uiComponents/generateBgCircles";
 import {generatePosterContent, generatePosterContainer} from "./uiComponents/generatePoster";
 
@@ -14,6 +15,7 @@ for (let i = 0; i < ui.circles.length; i++) {
     });
 }
 
+toggleRecCircle();
 generateCircle();
 circleProperties();
 generatePosterContainer();

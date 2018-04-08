@@ -10,103 +10,773 @@ export const composers = [
         biography:'Il est principalement connu pour ses musiques de films. On lui doit le renouveau des bandes originales symphoniques avec ce qui reste son œuvre la plus célèbre : la musique de la saga Star Wars. Compositeur attitré de Steven Spielberg et de George Lucas, Williams a composé au cours d\'une carrière qui s\'étend sur près de soixante ans, un grand nombre des plus célèbres musiques de films de l\'histoire d\'Hollywood, notamment Les Dents de la mer, les sagas Star Wars et Indiana Jones, Superman, E.T. l\'extra-terrestre, Jurassic Park et les trois premiers films de la saga Harry Potter. Il a également composé la musique de quatre Jeux olympiques, NBC Nightly News, la cérémonie d\'investiture du président Barack Obama, et de nombreuses séries télévisées.',
         movies: [{
             name : 'Harry Potter à l\'école des sorciers',
-            picture : 'imgs/movie/La_Guerre_des_Étoiles.png',
+            picture : 'imgs/movie/L\'école_des_sorciers.jpg',
             date : '2001',
             musics : [
                 {
                     name : 'Prologue',
                     id : 'CwB16m3abyM',
-                    duration : 300
+                    duration : 132
                 },
                {
                     name : 'Harry\'s Wondrous World',
                     id : '3vDLUuAI7bk',
-                    duration : 300
+                    duration : 320
                 },
                 {
                     name : 'The Arrival Of Baby Harry',
                     id : 'adrDiJmzchE',
-                    duration : 300
+                    duration : 265
                 },
                 {
                     name : 'Visit To The Zoo And Letters From Hogwarts',
                     id : 'BFDPb1lv-yY',
-                    duration : 300
+                    duration : 202
                 },
                 {
                     name : 'Diagon Alley And The Gringotts Vault',
                     id : 'GeMDMSpNeSY',
-                    duration : 300
+                    duration : 246
                 },
                 {
-                    name : 'Platform Nine And Three Quarters And The Journey To Hogwarts\n' +
-                    'Composed by John Williams',
+                    name : 'Platform Nine And Three Quarters And The Journey To Hogwarts',
                     id : 'RHqh1P6U3Mk',
-                    duration : 300
+                    duration : 194
                 },
                 {
                     name : 'Entry Into The Great Hall And The Banquet',
                     id : 'KQCi10OogF8',
-                    duration : 300
+                    duration : 222
                 },
                 {
                     name : 'Mr Longbottom Flies',
                     id : 'ImcfLbJ_pJ8',
-                    duration : 300
+                    duration : 215
                 },
                 {
                     name : 'Hogwarts Forever! And The Moving Stairs',
                     id : 'oWJgJQXyjJc',
-                    duration : 300
+                    duration : 226
                 },
                 {
                     name : 'The Norwegian Ridgeback And A Change Of Season',
                     id : '5taljO47tkQ',
-                    duration : 300
+                    duration : 167
                 },
                 {
                     name : 'The Quidditch Match',
                     id : 'nJSP2vk3QVQ',
-                    duration : 300
+                    duration : 668
                 },
                 {
                     name : 'Christmas At Hogwarts',
                     id : '4aUR98yrQBo',
-                    duration : 300
+                    duration : 176
                 },
                 {
                     name : 'The Invisibility Cloak And The Library Scene',
                     id : '-1YVP3BRtXE',
-                    duration : 300
+                    duration : 195
                 },
                 {
                     name : 'Fluffy\'s Harp',
                     id : 'lJ9D6tx3AV0',
-                    duration : 300
+                    duration : 158
                 },
                 {
                     name : 'In The Devil\'s Snare And The Flying Keys',
                     id : 'fkvu5FMvykk',
-                    duration : 300
+                    duration : 140
                 },
                 {
                     name : 'The Chess Game',
                     id : 'nmmRTtexK7s',
-                    duration : 300
+                    duration : 228
                 },
                 {
                     name : 'The Face Of Voldemort',
                     id : 'GiiNGLH9fkU',
-                    duration : 300
+                    duration : 370
                 },
                 {
                     name : 'Leaving Hogwarts',
                     id : '9sp3SLYbBiM',
-                    duration : 300
+                    duration : 133
                 },
                 {
                     name : 'Hedwig\'s Theme',
                     id : 'qCUNYW_86ro',
+                    duration : 309
+                }
+            ]
+        },{
+            name : 'Harry Potter et la chambre des secrets',
+            picture : 'imgs/movie/La_chambre_des_secrets.jpg',
+            date : '2002',
+            musics : [
+                {
+                    name : 'Prologue',
+                    id : 'pabbLUubG9E',
+                    duration : 212
+                },
+                {
+                    name : 'Fawkes The Phoenix',
+                    id : 'V6-2MJjMPug',
+                    duration : 225
+                },
+                {
+                    name : 'The Chamber Of Secrets',
+                    id : 'Dsguffi1Ffc',
+                    duration : 230
+                },
+                {
+                    name : 'Gilderoy Lockhart',
+                    id : '3Ycpy0GZRPs',
+                    duration : 126
+                },
+                {
+                    name : 'The Flying Car',
+                    id : 'B7uGTEh0wck',
+                    duration : 248
+                },
+                {
+                    name : 'Knockturn Alley',
+                    id : '79gSapEnCFM',
+                    duration : 108
+                },
+                {
+                    name : 'Introducing Colin',
+                    id : 'f6ttqB257y',
+                    duration : 109
+                },
+                {
+                    name : 'The Dueling Club',
+                    id : 'KeatIHHlXCg',
+                    duration :248
+                },
+                {
+                    name : 'Dobby The House Elf',
+                    id : 'DfU8pfsRouU',
+                    duration : 207
+                },
+                {
+                    name : 'The Spiders',
+                    id : 'OddxYbjYP2k',
+                    duration : 273
+                },
+                {
+                    name : 'Moaning Myrtle',
+                    id : '8C8o6THDl7Q',
+                    duration : 125
+                },
+                {
+                    name : 'Meeting Aragog',
+                    id : '9dLrnEhfOuI',
+                    duration : 198
+                },
+                {
+                    name : 'Fawkes Is Reborn',
+                    id : 'JWVKOB3uHE0',
+                    duration : 199
+                },
+                {
+                    name : 'Meeting Tom Riddle',
+                    id : 'nTXSU_v338Q',
+                    duration : 218
+                },
+                {
+                    name : 'Cornish Pixies',
+                    id : 'G2xrg22xJQ4',
+                    duration : 133
+                },
+                {
+                    name : 'Polyjuice Potion',
+                    id : 'WT-CmM3myOY',
+                    duration : 232
+                },
+                {
+                    name : 'Cakes For Crabbe And Goyle',
+                    id : 'hM5lOlOoibo',
+                    duration : 210
+                },
+                {
+                    name : 'Dueling The Basilisks',
+                    id : 'VmHRiQ1ordU',
+                    duration : 302
+                },
+                {
+                    name : 'Reunion Of Friends',
+                    id : 'OWb3aPHdsI8',
+                    duration : 309
+                },
+                {
+                    name : 'Harry\'s Wondrous World',
+                    id : 'NrJjpRfzipM',
+                    duration : 302
+                }
+            ]
+        },{
+            name : 'Harry Potter et le Prisonnier d\'Azkaban',
+            picture : 'imgs/movie/Le_Prisonnier_d\'Azkaban.png',
+            date : '2004',
+            musics : [
+                {
+                    name : 'Lumos! Hedwige\'s Theme',
+                    id : '5FfQcQxDCNE',
+                    duration : 300
+                },
+                {
+                    name : 'Aunt Marge\'s Waltz',
+                    id : 'P4TQ-IoioOU',
+                    duration : 300
+                },
+                {
+                    name : 'The Knight Bus',
+                    id : 'vu-LnN4QpMA',
+                    duration : 300
+                },
+                {
+                    name : 'Apparition On The Train',
+                    id : 'Zw--KnQX568',
+                    duration : 300
+                },
+                {
+                    name : 'Double Trouble',
+                    id : '5wLgl3jC9Mc',
+                    duration : 300
+                },
+                {
+                    name : 'Buckbeak\'s Flight',
+                    id : 'x0nVcqvCzUQ',
+                    duration : 300
+                },
+                {
+                    name : 'A Window To The Past',
+                    id : '4JRllDLk2Zg',
+                    duration : 300
+                },
+                {
+                    name : 'The Whomping Willow And The Snowball Fight',
+                    id : 'g2W4-wMWMzM',
+                    duration : 300
+                },
+                {
+                    name : 'Secrets Of The Castle',
+                    id : 'pNPsC1iVBAM',
+                    duration : 300
+                },
+                {
+                    name : 'The Portrait Gallery',
+                    id : 'kljw3ZhscZ8',
+                    duration : 300
+                },
+                {
+                    name : 'Hagrid The Professor',
+                    id : '5BkyB9jis8Y',
+                    duration : 300
+                },
+                {
+                    name : 'Monster Books And Boggarts!',
+                    id : '46kfBZAKCOQ',
+                    duration : 300
+                },
+                {
+                    name : 'Quidditch, Third Year',
+                    id : 'W2oFwVWCNvM',
+                    duration : 300
+                },
+                {
+                    name : 'Lupin\'s Transformation And Chasing Scabbers',
+                    id : 'UeOn9gkYjDY',
+                    duration : 300
+                },
+                {
+                    name : 'The Patronus Light',
+                    id : 'fCSQbCyYIOQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Werewolf Scene',
+                    id : 'dsI4f2fOqyo',
+                    duration : 300
+                },
+                {
+                    name : 'Saving Buckbeak',
+                    id : '3vnpJpUWBWA',
+                    duration : 300
+                },
+                {
+                    name : 'Forward To Time Past',
+                    id : 'IKz-ReVO7vY',
+                    duration : 300
+                },
+                {
+                    name : 'The Dementors Converge',
+                    id : 'n3fZXDMr7os',
+                    duration : 300
+                },
+                {
+                    name : 'Finale',
+                    id : 'jzTDbalYiOE',
+                    duration : 300
+                },
+                {
+                    name : 'Mischief Managed!',
+                    id : 'soCCX8bEnAQ',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Star Wars, épisode IV : Un nouvel espoir',
+            picture : 'imgs/movie/Star_Wars_IV.jng',
+            date : '1977',
+            musics : [
+                {
+                    name : 'Rebel Blockade Runner',
+                    id : 'pBtqR-su4zw',
+                    duration : 300
+                },
+                {
+                    name : 'Imperial Attack',
+                    id : 'eDTNs_diI9A',
+                    duration : 300
+                },
+                {
+                    name : 'The Dune Sea of Tatooine & Jawa Sandcrawler',
+                    id : 'Ie4i1X0hwbg',
+                    duration : 300
+                },
+                {
+                    name : 'The Moisture Farm',
+                    id : 'nrHDsC6tDJk',
+                    duration : 300
+                },
+                {
+                    name : 'The Hologram & Binary Sunset',
+                    id : 'aEpYO4aOoaQ',
+                    duration : 300
+                },
+                {
+                    name : 'Landspeeder Search & Attack of the Sand People',
+                    id : 'RmPhEgz7U4U',
+                    duration : 300
+                },
+                {
+                    name : 'Tales of a Jedi Knight & Learn About the Force',
+                    id : 'VyX85ZCkrA8',
+                    duration : 300
+                },
+                {
+                    name : 'Burning Homestead',
+                    id : 'jxZwNqA1GQ0',
+                    duration : 300
+                },
+                {
+                    name : 'Mos Eisley Spaceport',
+                    id : 'X0PBo4lJ_V0',
+                    duration : 300
+                },
+                {
+                    name : 'Cantina Band',
+                    id : '6xz6E0x2Jnk',
+                    duration : 300
+                },
+                {
+                    name : 'Cantina Band 2',
+                    id : 'UqFFniFUBWg',
+                    duration : 300
+                },
+                {
+                    name : 'Binary Sunset (Alternate)',
+                    id : 'iDwxi9UCcSQ',
+                    duration : 300
+                },
+                {
+                    name : 'Princess Leia\'s Theme',
+                    id : 'ZLd-fQM2hb4',
+                    duration : 300
+                },
+                {
+                    name : 'The Millennium Falcon & Imperial Cruiser Pursuit',
+                    id : 'eSrkA7FQhKE',
+                    duration : 300
+                },
+                {
+                    name : 'Destruction of Alderaan',
+                    id : 'srojmfIgF3s',
+                    duration : 300
+                },
+                {
+                    name : 'The Death Star & The Stormtroopers',
+                    id : 'OrIuahcMtYw',
+                    duration : 300
+                },
+                {
+                    name : 'Wookie Prisoner & Detention Block Ambush',
+                    id : 'gsp31oHPOss',
+                    duration : 300
+                },
+                {
+                    name : 'Shootout in the Cell Bay & Dianoga',
+                    id : '4aD4TMKlr2Y',
+                    duration : 300
+                },
+                {
+                    name : 'The Trash Compactor',
+                    id : 'GDCUw4xsebQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Tractor Beam Chasm Crossfire',
+                    id : 'cPxW04rRDKg',
+                    duration : 300
+                },
+                {
+                    name : 'Ben Kenobi\'s Death & TIE Fighter Attack',
+                    id : 'mxbMwMWdCRM',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle of Yavin',
+                    id : 'kLQDJbrvyUQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Throne Room',
+                    id : '1IWEClKJz3w',
+                    duration : 300
+                }
+            ]
+        }, {
+            name : 'Star Wars, épisode V : L\'Empire contre-attaque',
+            picture : 'imgs/movie/Star_Wars_V.jpg',
+            date : '1980',
+            musics : [
+                {
+                    name : 'The Ice Planet Hoth',
+                    id : 'TssrJ5YvZ8o',
+                    duration : 300
+                },
+                {
+                    name : 'The Wampa\'s Lair & Vision of Obi-Wan & Snowspeeders Take Flight',
+                    id : 'HGIQN5y-k5A',
+                    duration : 300
+                },
+                {
+                    name : 'The Imperial Probe & Aboard the Executor',
+                    id : 'fkjtzsua5XY',
+                    duration : 300
+                },
+                {
+                    name : 'The Battle of Hoth',
+                    id : 'Y7P6B9I9z0g',
+                    duration : 300
+                },
+                {
+                    name : 'The Asteroid Field',
+                    id : '5AcMPA3INsA',
+                    duration : 300
+                },
+                {
+                    name : 'Buckbeak\'s Flight',
+                    id : 'x0nVcqvCzUQ',
+                    duration : 300
+                },
+                {
+                    name : 'A Window To The Past',
+                    id : '4JRllDLk2Zg',
+                    duration : 300
+                },
+                {
+                    name : 'The Whomping Willow And The Snowball Fight',
+                    id : 'g2W4-wMWMzM',
+                    duration : 300
+                },
+                {
+                    name : 'Secrets Of The Castle',
+                    id : 'pNPsC1iVBAM',
+                    duration : 300
+                },
+                {
+                    name : 'The Portrait Gallery',
+                    id : 'kljw3ZhscZ8',
+                    duration : 300
+                },
+                {
+                    name : 'Hagrid The Professor',
+                    id : '5BkyB9jis8Y',
+                    duration : 300
+                },
+                {
+                    name : 'Monster Books And Boggarts!',
+                    id : '46kfBZAKCOQ',
+                    duration : 300
+                },
+                {
+                    name : 'Quidditch, Third Year',
+                    id : 'W2oFwVWCNvM',
+                    duration : 300
+                },
+                {
+                    name : 'Lupin\'s Transformation And Chasing Scabbers',
+                    id : 'UeOn9gkYjDY',
+                    duration : 300
+                },
+                {
+                    name : 'The Patronus Light',
+                    id : 'fCSQbCyYIOQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Werewolf Scene',
+                    id : 'dsI4f2fOqyo',
+                    duration : 300
+                },
+                {
+                    name : 'Saving Buckbeak',
+                    id : '3vnpJpUWBWA',
+                    duration : 300
+                },
+                {
+                    name : 'Forward To Time Past',
+                    id : 'IKz-ReVO7vY',
+                    duration : 300
+                },
+                {
+                    name : 'The Dementors Converge',
+                    id : 'n3fZXDMr7os',
+                    duration : 300
+                },
+                {
+                    name : 'Finale',
+                    id : 'jzTDbalYiOE',
+                    duration : 300
+                },
+                {
+                    name : 'Mischief Managed!',
+                    id : 'soCCX8bEnAQ',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Harry Potter et le Prisonnier d\'Azkaban',
+            picture : 'imgs/movie/Le_Prisonnier_d\'Azkaban.png',
+            date : '2004',
+            musics : [
+                {
+                    name : 'Lumos! Hedwige\'s Theme',
+                    id : '5FfQcQxDCNE',
+                    duration : 300
+                },
+                {
+                    name : 'Aunt Marge\'s Waltz',
+                    id : 'P4TQ-IoioOU',
+                    duration : 300
+                },
+                {
+                    name : 'The Knight Bus',
+                    id : 'vu-LnN4QpMA',
+                    duration : 300
+                },
+                {
+                    name : 'Apparition On The Train',
+                    id : 'Zw--KnQX568',
+                    duration : 300
+                },
+                {
+                    name : 'Double Trouble',
+                    id : '5wLgl3jC9Mc',
+                    duration : 300
+                },
+                {
+                    name : 'Buckbeak\'s Flight',
+                    id : 'x0nVcqvCzUQ',
+                    duration : 300
+                },
+                {
+                    name : 'A Window To The Past',
+                    id : '4JRllDLk2Zg',
+                    duration : 300
+                },
+                {
+                    name : 'The Whomping Willow And The Snowball Fight',
+                    id : 'g2W4-wMWMzM',
+                    duration : 300
+                },
+                {
+                    name : 'Secrets Of The Castle',
+                    id : 'pNPsC1iVBAM',
+                    duration : 300
+                },
+                {
+                    name : 'The Portrait Gallery',
+                    id : 'kljw3ZhscZ8',
+                    duration : 300
+                },
+                {
+                    name : 'Hagrid The Professor',
+                    id : '5BkyB9jis8Y',
+                    duration : 300
+                },
+                {
+                    name : 'Monster Books And Boggarts!',
+                    id : '46kfBZAKCOQ',
+                    duration : 300
+                },
+                {
+                    name : 'Quidditch, Third Year',
+                    id : 'W2oFwVWCNvM',
+                    duration : 300
+                },
+                {
+                    name : 'Lupin\'s Transformation And Chasing Scabbers',
+                    id : 'UeOn9gkYjDY',
+                    duration : 300
+                },
+                {
+                    name : 'The Patronus Light',
+                    id : 'fCSQbCyYIOQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Werewolf Scene',
+                    id : 'dsI4f2fOqyo',
+                    duration : 300
+                },
+                {
+                    name : 'Saving Buckbeak',
+                    id : '3vnpJpUWBWA',
+                    duration : 300
+                },
+                {
+                    name : 'Forward To Time Past',
+                    id : 'IKz-ReVO7vY',
+                    duration : 300
+                },
+                {
+                    name : 'The Dementors Converge',
+                    id : 'n3fZXDMr7os',
+                    duration : 300
+                },
+                {
+                    name : 'Finale',
+                    id : 'jzTDbalYiOE',
+                    duration : 300
+                },
+                {
+                    name : 'Mischief Managed!',
+                    id : 'soCCX8bEnAQ',
+                    duration : 300
+                }
+            ]
+        },{
+            name : 'Harry Potter et le Prisonnier d\'Azkaban',
+            picture : 'imgs/movie/Le_Prisonnier_d\'Azkaban.png',
+            date : '2004',
+            musics : [
+                {
+                    name : 'Lumos! Hedwige\'s Theme',
+                    id : '5FfQcQxDCNE',
+                    duration : 300
+                },
+                {
+                    name : 'Aunt Marge\'s Waltz',
+                    id : 'P4TQ-IoioOU',
+                    duration : 300
+                },
+                {
+                    name : 'The Knight Bus',
+                    id : 'vu-LnN4QpMA',
+                    duration : 300
+                },
+                {
+                    name : 'Apparition On The Train',
+                    id : 'Zw--KnQX568',
+                    duration : 300
+                },
+                {
+                    name : 'Double Trouble',
+                    id : '5wLgl3jC9Mc',
+                    duration : 300
+                },
+                {
+                    name : 'Buckbeak\'s Flight',
+                    id : 'x0nVcqvCzUQ',
+                    duration : 300
+                },
+                {
+                    name : 'A Window To The Past',
+                    id : '4JRllDLk2Zg',
+                    duration : 300
+                },
+                {
+                    name : 'The Whomping Willow And The Snowball Fight',
+                    id : 'g2W4-wMWMzM',
+                    duration : 300
+                },
+                {
+                    name : 'Secrets Of The Castle',
+                    id : 'pNPsC1iVBAM',
+                    duration : 300
+                },
+                {
+                    name : 'The Portrait Gallery',
+                    id : 'kljw3ZhscZ8',
+                    duration : 300
+                },
+                {
+                    name : 'Hagrid The Professor',
+                    id : '5BkyB9jis8Y',
+                    duration : 300
+                },
+                {
+                    name : 'Monster Books And Boggarts!',
+                    id : '46kfBZAKCOQ',
+                    duration : 300
+                },
+                {
+                    name : 'Quidditch, Third Year',
+                    id : 'W2oFwVWCNvM',
+                    duration : 300
+                },
+                {
+                    name : 'Lupin\'s Transformation And Chasing Scabbers',
+                    id : 'UeOn9gkYjDY',
+                    duration : 300
+                },
+                {
+                    name : 'The Patronus Light',
+                    id : 'fCSQbCyYIOQ',
+                    duration : 300
+                },
+                {
+                    name : 'The Werewolf Scene',
+                    id : 'dsI4f2fOqyo',
+                    duration : 300
+                },
+                {
+                    name : 'Saving Buckbeak',
+                    id : '3vnpJpUWBWA',
+                    duration : 300
+                },
+                {
+                    name : 'Forward To Time Past',
+                    id : 'IKz-ReVO7vY',
+                    duration : 300
+                },
+                {
+                    name : 'The Dementors Converge',
+                    id : 'n3fZXDMr7os',
+                    duration : 300
+                },
+                {
+                    name : 'Finale',
+                    id : 'jzTDbalYiOE',
+                    duration : 300
+                },
+                {
+                    name : 'Mischief Managed!',
+                    id : 'soCCX8bEnAQ',
                     duration : 300
                 }
             ]

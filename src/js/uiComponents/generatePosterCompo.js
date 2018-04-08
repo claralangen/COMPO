@@ -4,11 +4,10 @@ export function generatePosterContainer(){
 
     const posterContainer = document.querySelector('.posterContainer');
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < composers[0].movies.length; i++) {
         let poster = document.createElement('div');
         poster.classList.add('posterContainer-item');
         posterContainer.appendChild(poster);
-
     }
 }
 
