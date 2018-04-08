@@ -1,8 +1,11 @@
-export var composers = [
+import JohnWilliamsBackgroundImage from '../assets/imgs/cover/JW.jpg';
+import JohnWilliamsFaceImage from '../assets/imgs/face/williams-john-52e88063ad489.jpg';
+
+export const composers = [
     {
         composerName :  'John Williams',
-        facePicture : 'imgs/face/JW.png',
-        coverPicture : '../assets/imgs/cover/JW.jpg',
+        facePicture : JohnWilliamsFaceImage,
+        coverPicture : JohnWilliamsBackgroundImage,
         preBiography : 'John Williams est un compositeur, chef d\'orchestre et pianiste américain né le 8 février 1932 à New York.',
         biography:'Il est principalement connu pour ses musiques de films. On lui doit le renouveau des bandes originales symphoniques avec ce qui reste son œuvre la plus célèbre : la musique de la saga Star Wars. Compositeur attitré de Steven Spielberg et de George Lucas, Williams a composé au cours d\'une carrière qui s\'étend sur près de soixante ans, un grand nombre des plus célèbres musiques de films de l\'histoire d\'Hollywood, notamment Les Dents de la mer, les sagas Star Wars et Indiana Jones, Superman, E.T. l\'extra-terrestre, Jurassic Park et les trois premiers films de la saga Harry Potter. Il a également composé la musique de quatre Jeux olympiques, NBC Nightly News, la cérémonie d\'investiture du président Barack Obama, et de nombreuses séries télévisées.',
         movies: [{
